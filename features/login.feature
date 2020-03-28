@@ -1,7 +1,7 @@
 Feature: Login
 As a user, I want to login to your site
 
-  @loginWithStandardAccount
+  @loginWithValidAccount
   Scenario Outline: Should Login With The Standard Account
     Given I navigate to Wizeline page
     When I login by using <username> username and <password> password
